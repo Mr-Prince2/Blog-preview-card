@@ -84,6 +84,34 @@
     .author span {
       font-size: 14px;
       font-weight: bold;
+
+      @media (min-width: 600px) {
+      .card {
+        max-width: 600px;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .card img {
+        width: 50%;
+        height: auto;
+      }
+
+      .card-content {
+        width: 50%;
+        padding: 20px;
+      }
+
+      h2 {
+        font-size: 22px;
+      }
+
+      p {
+        font-size: 15px;
+      }
+      }
+
+      
     }
   </style>
 </head>
